@@ -1,6 +1,6 @@
 #game {
   width: 300px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 table {
@@ -37,6 +37,7 @@ td {
   touch-action: manipulation;
   vertical-align: middle;
   width: 100px;
+  margin: 10px;
 }
 
 .button-13:hover {
