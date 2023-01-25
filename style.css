@@ -1,25 +1,23 @@
-.board {
-  display: flex;
-  flex-wrap: wrap;
+#game {
   width: 300px;
-  height: 300px;
-  border: 5px solid blue;
-  border-radius: 1rem;
+  margin: 0 auto;
 }
 
-.board div {
-  width: 98px;
-  height: 98px;
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 100px;
+  height: 100px;
   text-align: center;
-  line-height: 100px;
+  vertical-align: middle;
   font-size: 48px;
-  font-weight: bold;
-  border: 1px solid blue;
-  color: black;
+  border: 1px solid #ccc;
 }
 
 .btn {
-  margin: 10px 128px;
+  margin: 10px auto;
   text-align: center;
   display: table-cell;
   vertical-align: middle;

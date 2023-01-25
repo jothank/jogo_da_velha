@@ -1,4 +1,4 @@
-const cells = Array.from(document.querySelectorAll(".board div"));
+const cells = document.querySelectorAll("td");
 
 let currentPlayer = "X";
 let gameOver = false;
@@ -41,5 +41,3 @@ function checkForWinner() {
     }
   });
 }
-
-
