@@ -25,3 +25,21 @@ const winningCombinations = [
   [0, 4, 8],
   [2, 4, 6],
 ];
+
+function checkForWinner() {
+  winningCombinations.forEach((combination) => {
+    const [a, b, c] = combination;
+
+    if (
+      cells[a].innerHTML === currentPlayer &&
+      cells[b].innerHTML === currentPlayer &&
+      cells[c].innerHTML === currentPlayer
+    ) {
+      alert(`${currentPlayer} ganhou!`);
+      gameOver = true;
+      cells.forEach((cell) => cell.removeEventListener("click", handleClick));
+    }
+  });
+}
+
+
