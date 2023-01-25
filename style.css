@@ -6,3 +6,14 @@
   border: 5px solid orange;
   border-radius: 1rem;
 }
+
+.board div {
+  width: 98px;
+  height: 98px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 48px;
+  font-weight: bold;
+  border: 1px solid orange;
+  color: #1d1e22;
+}
